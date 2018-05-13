@@ -1,15 +1,10 @@
 import processing.video.*;
-
 Capture video;
-
 int blobCounter = 0;
-
 int maxLife = 200;
-
 color trackColor; 
 float threshold = 40;
 float distThreshold = 50;
-
 ArrayList<Blob> blobs = new ArrayList<Blob>();
 
 void setup() {
